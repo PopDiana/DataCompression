@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCompression", "DataCompression\DataCompression.csproj", "{59910991-A491-4223-9DEC-9C89D1674044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59910991-A491-4223-9DEC-9C89D1674044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59910991-A491-4223-9DEC-9C89D1674044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59910991-A491-4223-9DEC-9C89D1674044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59910991-A491-4223-9DEC-9C89D1674044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3890DFB-0EEA-40CE-9C05-8BEC962A9BEB}
+	EndGlobalSection
+EndGlobal
