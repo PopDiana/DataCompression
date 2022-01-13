@@ -18,14 +18,14 @@ namespace DataCompression
         {
             string dirPath = @"";
 
-            int[] chunkSizes = { 1 * Constants.Sizes.KB, 2 * Constants.Sizes.KB, 3 * Constants.Sizes.KB, 5 * Constants.Sizes.KB, 1 * Constants.Sizes.MB };
+            int[] chunkSizes = { 1 * Constants.Sizes.MB, 2 * Constants.Sizes.MB, 3 * Constants.Sizes.MB, 5 * Constants.Sizes.MB, 1 * Constants.Sizes.GB };
             int[] degreesOfParalelization = { Environment.ProcessorCount };
             var compressorsAndCompressionLevels = new List<(IParallelCompression, int[])>
             {                       
                 (new GZipCompression(), new[] {2, 1, 0}),
                 (new DeflateCompression(), new[] {2, 1, 0}),
-                (new LZ4Compression(), new[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}),           
-                (new ZStandardCompression(), new[] {1, 2, 3, 4, 5 })
+                (new LZ4Compression(), new[] {0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}),           
+                (new ZStandardCompression(), new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
             };
 
            foreach (var (compression, compressionLevels) in compressorsAndCompressionLevels)
